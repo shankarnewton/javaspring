@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Home Page</title>
+	<link rel="stylesheet" type="text/css" href="/webjars/bootstrap/css/bootstrap.min.css" />
+	<script type="text/javascript" src="/webjars/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="/webjars/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#"> <img src="https://i.ibb.co/yY8V74S/Screenshot-2021-06-29-at-1-02-05-PM.png" style="margin: 0px" width="160" height="35" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <a href="login.html" type="button" class="btn btn-primary" style="margin: 0px;">Logout</a>
+          </form>
+        </div>
+      </div>
+    </nav>
+		
+   <!-- navigation ends -->
+
+ <!-- homepage content starts --> 
+
+ <div class="container givespace">
+    <div class="row"></div>
+        <div class="col" style= "margin-top:25px">
+            <h2>Welcome to College Helper</h2>
+            <h5 style="margin-top:25px" > What would you like to access today?</h5>
+        </div>
+   
+
+        <div class="list-group" style= "margin-top:25px">
+
+                
+               <a href="studentprofile.html" type="button" class="list-group-item list-group-item-action">Student Profile</a>
+                <button type="button" class="list-group-item list-group-item-action">College Search</button>
+                <button type="button" class="list-group-item list-group-item-action">Considering Catalogue</button>
+                <button type="button" class="list-group-item list-group-item-action">Applying Catalogue</button>
+                <button type="button" class="list-group-item list-group-item-action">Compare</button>
+                <button type="button" class="list-group-item list-group-item-action">Essays and Letters</button>   
+                
+              </div>
+      
+
+    </div>
+</div>
+	
+</body>
+</html>
